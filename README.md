@@ -1,4 +1,4 @@
-# Passing MAVLINK telemetry via LTE
+# Passing MavLink telemetry via network
 
 This tutorial is about connecting MavLink based flight controller to GroundStation software via LTE for long-range vehicles
 
