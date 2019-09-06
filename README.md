@@ -18,8 +18,8 @@ The required parts for this project:
 * Connect grounds
 
 ## Raspberry PI configuration
-* Enable GPIO uart and disable using UART by console
-* set up `socat` to Raspberry PI with `sudo apt-get install socat`
+* Enable GPIO uart and disable using UART by console (Interfacing Options -> P6 -> First: No, second: Yes)
+* Set up `socat` to Raspberry PI with `sudo apt-get install socat`
 * Create script listed below:
 
 ```SH
