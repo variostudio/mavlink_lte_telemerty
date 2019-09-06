@@ -9,7 +9,7 @@ The required parts for this project:
 * 5v to 3.3v voltage divider
 * Wires etc.
 
-## Flight controller set up.
+## Flight controller set up
 * Choose free UART on FC. It would be UART5 for this tutorial.
 * Configure it as MavLink2, 57600 bps
 
@@ -30,8 +30,8 @@ socat TCP-LISTEN:4161,fork,reuseaddr FILE:/dev/ttyAMA0,b57600,raw
 This scripts maps UART ttyAMA0 to port 4161
 
 ## Ground Control Station setup
-* Create connection in your GSC software:
-** Type: TCP
-** Port: 4161
+Create connection in your GSC software:
+* Type: TCP
+* Port: 4161
 
 ## Connect it!
