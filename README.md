@@ -1,6 +1,6 @@
 # Passing MavLink telemetry via network
 
-This tutorial is about connecting MavLink based flight controller to GroundStation software via LTE for long-range vehicles
+This tutorial is about connecting MavLink based flight controller to GroundStation software via network for long-range vehicles
 
 ## Parts and materials
 The required parts for this project:
@@ -35,3 +35,8 @@ Create connection in your GSC software:
 * Port: 4161
 
 ## Connect it!
+
+## What to do next
+* Connect 4G dongle to Raspberry Pi and have (almost) unlimited range
+* Forward video stream via 4G 
+* Configure SD card as read-only
